@@ -26,6 +26,7 @@ Contents:
    dial
    spinbox
    doublespinbox
+   progressbar
    toolbar
    toolbox
    menubar
