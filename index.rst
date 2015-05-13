@@ -26,6 +26,7 @@ Contents:
    dial
    spinbox
    doublespinbox
+   lcdnumber
    progressbar
    toolbar
    toolbox
