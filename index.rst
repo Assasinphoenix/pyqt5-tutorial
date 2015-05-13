@@ -33,6 +33,7 @@ Contents:
    tabwidget
    combobox
    calendar
+   timeedit
    dialog
    listwidget
    plaintextedit
