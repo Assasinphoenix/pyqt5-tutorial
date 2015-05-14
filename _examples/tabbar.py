@@ -10,15 +10,11 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)
 
-        button = QRadioButton("Brazil")
-        button.setChecked(True)
-        layout.addWidget(button, 0, 0)
-
-        button = QRadioButton("Argentina")
-        layout.addWidget(button, 0, 1)
-
-        button = QRadioButton("Ecuador")
-        layout.addWidget(button, 0, 2)
+        tabbar = QTabBar()
+        tabbar.addTab("Tab 1")
+        tabbar.addTab("Tab 2")
+        tabbar.addTab("Tab 3")
+        layout.addWidget(tabbar, 0, 0)
 
 app = QApplication(sys.argv)
 

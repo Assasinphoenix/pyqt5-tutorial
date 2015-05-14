@@ -5,7 +5,7 @@ import sys
 
 class Dialog(QWidget):
     def __init__(self):
-        super(Dialog, self).__init__()
+        QWidget.__init__(self)
 
         layout = QGridLayout()
         self.setLayout(layout)

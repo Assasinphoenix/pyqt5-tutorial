@@ -3,9 +3,9 @@
 from PyQt5.QtWidgets import *
 import sys
 
-class Dialog(QWidget):
+class Window(QWidget):
     def __init__(self):
-        super(Dialog, self).__init__()
+        QWidget.__init__(self)
 
         layout = QGridLayout()
         self.setLayout(layout)
@@ -22,7 +22,7 @@ class Dialog(QWidget):
 
 app = QApplication(sys.argv)
 
-screen = Dialog()
+screen = Window()
 screen.show()
 
 sys.exit(app.exec_())

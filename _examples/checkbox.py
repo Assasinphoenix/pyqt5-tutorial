@@ -5,7 +5,7 @@ import sys
 
 class Window(QWidget):
     def __init__(self):
-        super(Window, self).__init__()
+        QWidget.__init__(self)
 
         layout = QGridLayout()
         self.setLayout(layout)
@@ -25,16 +25,16 @@ class Window(QWidget):
 
     def checkbox_toggled(self):
         selected = []
-        
+
         if self.checkbox1.isChecked():
             selected.append("Kestrel")
-            
+
         if self.checkbox2.isChecked():
             selected.append("Sparrowhawk")
-            
+
         if self.checkbox3.isChecked():
             selected.append("Hobby")
-        
+
         print("Selected: %s" % (" ".join(selected)))
 
 app = QApplication(sys.argv)
