@@ -37,5 +37,6 @@ Contents:
    timeedit
    dialog
    listwidget
+   listwidgetitem
    plaintextedit
    textedit
