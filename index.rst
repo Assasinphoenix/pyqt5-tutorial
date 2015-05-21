@@ -32,6 +32,7 @@ Contents:
    toolbox
    menubar
    tabwidget
+   stackedwidget
    combobox
    calendar
    timeedit
