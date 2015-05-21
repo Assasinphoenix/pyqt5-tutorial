@@ -38,5 +38,7 @@ Contents:
    dialog
    listwidget
    listwidgetitem
+   fontcombobox
+   scrollarea
    plaintextedit
    textedit
