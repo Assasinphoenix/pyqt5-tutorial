@@ -37,6 +37,7 @@ Contents:
    calendar
    timeedit
    dialog
+   colordialog
    listwidget
    listwidgetitem
    fontcombobox
