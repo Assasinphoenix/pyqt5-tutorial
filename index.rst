@@ -21,7 +21,9 @@ Contents:
    lineedit
    buttongroup
    groupbox
+   sizegrip
    splitter
+   frame
    slider
    dial
    spinbox
@@ -31,13 +33,16 @@ Contents:
    toolbar
    toolbox
    menubar
+   menu
    tabwidget
    stackedwidget
    combobox
    calendar
    timeedit
    dialog
+   filedialog
    fontdialog
+   fontcombobox
    colordialog
    listwidget
    listwidgetitem
