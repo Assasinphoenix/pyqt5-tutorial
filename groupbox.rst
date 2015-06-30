@@ -33,3 +33,12 @@ By default, the alignment is set to the left-edge, however it can be customised 
   * ``Qt::AlignLeft``
   * ``Qt::AlignRight``
   * ``Qt::AlignHCenter``
+
+=======
+Example
+=======
+Below is an example of an GroupBox:
+
+.. literalinclude:: _examples/groupbox.py
+
+Download: :download:`GroupBox <_examples/groupbox.py>`

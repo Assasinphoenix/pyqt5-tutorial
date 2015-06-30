@@ -42,11 +42,9 @@ Options configuring the ColorDialog can be set using::
 
 The *setting* parameter should be set to a Boolean value indicating whether the option is enabled or not. The *option* value can be set to any of the following:
 
-* ``QColorDialog::ShowAlphaChannel``
-* ``QColorDialog::NoButtons``
-* ``QColorDialog::DontUseNativeDialog``
-
-Using the ``QColorDialog::ShowAlphaChannel`` value allows the user to select the colour transparency. If ``QColorDialog::NoButtons`` is used, the dialog will show no buttons at the bottom. The ``QColorDialog::DontUseNativeDialog`` attempts to use the native platform dialog if possible.
+* ``QColorDialog.ShowAlphaChannel`` - show transparency setting widget.
+* ``QColorDialog.NoButtons`` - do not show OK and Cancel buttons on dialog.
+* ``QColorDialog.DontUseNativeDialog`` - use the Qt default colour dialog.
 
 The options in use can be retrieved from the ColorDialog by calling::
 
