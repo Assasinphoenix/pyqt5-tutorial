@@ -50,3 +50,5 @@ Contents:
    scrollarea
    plaintextedit
    textedit
+   wizard
+   wizardpage
