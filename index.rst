@@ -18,6 +18,7 @@ Contents:
    radiobutton
    checkbox
    tooltip
+   whatsthis
    lineedit
    buttongroup
    groupbox

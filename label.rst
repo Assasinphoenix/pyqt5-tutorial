@@ -65,7 +65,7 @@ The *widget* parameter is the name of the widget to be paired with the Label.
 =======
 Example
 =======
-Below is an example of an Label:
+Below is an example of a Label:
 
 .. literalinclude:: _examples/label.py
 
