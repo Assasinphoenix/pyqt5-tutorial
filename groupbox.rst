@@ -2,7 +2,7 @@ GroupBox
 ========
 The GroupBox provides a tidy way to group items, with the container featuring a title label and bordering frame.
 
-It should be noted that the GroupBox can only contain one widget itself, with the intention of other containers such as a :doc:`box`.
+It should be noted that the GroupBox can only contain one widget itself, with the intention of other containers such as a :doc:`boxlayout`.
 
 ===========
 Constructor
@@ -30,9 +30,9 @@ The alignment of children within the GroupBox is settable via::
 
 By default, the alignment is set to the left-edge, however it can be customised with the *alignment* value being set to one of the following::
 
-  * ``Qt::AlignLeft``
-  * ``Qt::AlignRight``
-  * ``Qt::AlignHCenter``
+* ``Qt::AlignLeft``
+* ``Qt::AlignRight``
+* ``Qt::AlignHCenter``
 
 =======
 Example
