@@ -44,3 +44,10 @@ Alternatively, a list of visited pages can be obtained in list form with::
 
   wizard.visitedPages()
 
+The operation of the page movement can be done programmatically by::
+
+  wizard.back()
+  wizard.next()
+  wizard.restart()
+
+The ``.back()`` and ``.next()`` methods will take the user back to the previous page on forward to the next page. The ``.restart()`` call takes the user back to the first page.
