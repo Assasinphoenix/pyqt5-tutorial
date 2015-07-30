@@ -26,10 +26,12 @@ Contents:
    splitter
    frame
    slider
+   scrollbar
    dial
    spinbox
    doublespinbox
    lcdnumber
+   spaceritem
    progressbar
    toolbar
    toolbox
@@ -37,6 +39,8 @@ Contents:
    menu
    tabwidget
    stackedwidget
+   dockwidget
+   formlayout
    combobox
    calendar
    timeedit
@@ -47,6 +51,7 @@ Contents:
    colordialog
    listwidget
    listwidgetitem
+   tablewidget
    fontcombobox
    scrollarea
    plaintextedit
