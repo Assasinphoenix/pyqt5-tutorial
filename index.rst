@@ -31,6 +31,7 @@ Contents:
    spinbox
    doublespinbox
    lcdnumber
+   image
    spaceritem
    progressbar
    toolbar
