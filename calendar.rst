@@ -25,7 +25,7 @@ The selected date can be retrieved from the Calendar with::
 
   calendar.selectedDate()
 
-This returns a :doc:`qdate` object which contains a number of associated methods for retrieving the date.
+This returns a :doc:`date` object which contains a number of associated methods for retrieving the date.
 
 The current page, determined by the specified month and year can be set via::
 
@@ -33,16 +33,21 @@ The current page, determined by the specified month and year can be set via::
 
 The minimum and maximum dates viewable within the Calendar can be set with::
 
-  calendar.minimumDate(date)
-  calendar.maximumDate(date)
+  calendar.minimumDate()
+  calendar.maximumDate()
 
-The *date* object should also be a :doc:`qdate` object.
+A Date object is returned for both methods which contains the minumum and maximum date ranges.
+
+Minimum and maximum dates can also be defined via the Date object with the methods::
+
+  calendar.setMinimumDate(date)
+  calendar.setMaximumDate(date)
 
 By default, the Calendar allows the date to be changed. It is possible to prevent the Calendar from being changed using::
 
   calendar.setDateEditEnabled(enabled)
 
-When *enabled* is set to ``False``, the user is no longer able to modify the Calendar.
+When *enabled* is set to ``False``, the user is no longer able to modify the Calendar, however it can still be used to display dates set programatically.
 
 The view of the Calendar can be customised by showing or hiding both the grid lines and navigation bar::
 
