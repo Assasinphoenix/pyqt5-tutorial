@@ -50,3 +50,12 @@ The *direction* parameter should be set to one of the following:
 * ``QBoxLayout.RightToLeft``
 * ``QBoxLayout.TopToBottom``
 * ``QBoxLayout.BottomToTop``
+
+=======
+Example
+=======
+Below is an example of an BoxLayout:
+
+.. literalinclude:: _examples/boxlayout.py
+
+Download: :download:`BoxLayout <_examples/boxlayout.py>`

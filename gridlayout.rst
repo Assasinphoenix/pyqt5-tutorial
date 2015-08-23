@@ -50,3 +50,12 @@ The number of rows and columns can be obtained from the container with::
 
   gridlayout.rowCount()
   gridlayout.columnCount()
+
+=======
+Example
+=======
+Below is an example of an GridLayout:
+
+.. literalinclude:: _examples/gridlayout.py
+
+Download: :download:`GridLayout <_examples/gridlayout.py>`
