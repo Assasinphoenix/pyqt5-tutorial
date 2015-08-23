@@ -27,8 +27,8 @@ By default, the Splitter takes on a horizontal orientation. This can be changed 
 
 The *orientation* value should be set to one of the following:
 
-* ``Qt::Horizontal``
-* ``Qt::Vertical``
+* ``Qt.Horizontal``
+* ``Qt.Vertical``
 
 In some cases, it may be useful to retrieve the widget for a given index, or the index for a given widget. This can be done using the methods::
 

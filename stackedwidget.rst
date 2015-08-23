@@ -35,3 +35,17 @@ Setting the currently visible widget is also done with::
 To retrieve the number of widgets held by the StackedWidget call::
 
   stackedwidget.count()
+
+The current page visible can be set by specifying the page index or widget::
+
+  stackwidget.setCurrentIndex(index)
+  stackwidget.setCurrentWidget(widget)
+
+=======
+Example
+=======
+Below is an example of an StackedWidget:
+
+.. literalinclude:: _examples/stackedwidget.py
+
+Download: :download:`StackedWidget <_examples/stackedwidget.py>`

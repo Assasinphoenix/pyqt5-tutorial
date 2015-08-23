@@ -27,8 +27,8 @@ By default, Toolbar widgets are usually horizontally orientated. The orientation
 
 The *orientation* value should be set vertically or horizontally with one of the following:
 
-* ``Qt::Vertical``
-* ``Qt::Horizontal``
+* ``Qt.Vertical``
+* ``Qt.Horizontal``
 
 Newly-created Toolbar widgets have a handle on the left which provides for detaching the toolbar and allowing the user to position it elsewhere. This can be disabled via::
 

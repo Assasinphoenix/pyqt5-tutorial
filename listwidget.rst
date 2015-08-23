@@ -45,8 +45,8 @@ The direction of the sort can also be configured by::
 
 The *order* parameter should be set to one of::
 
-* ``Qt::AscendingOrder``
-* ``Qt::DescendingOrder``
+* ``Qt.AscendingOrder``
+* ``Qt.DescendingOrder``
 
 Items in the list can be programatically selected via their row number with::
 

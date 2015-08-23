@@ -20,10 +20,10 @@ Items are added to the GridLayout using::
 
 The *widget* parameter indicates the widget which is to be added to the GridLayout at *row* and *column*. The row and column values work on a coordinate-like system, with 0 and 0 indicating top-left. The *rowspan* and *columnspan* values indicate how many rows or columns the widget should span. Finally, the *alignment* parameter should be set to one of the following:
 
-* ``Qt::AlignmentLeft``
-* ``Qt::AlignmentRight``
-* ``Qt::AlignmentHCenter``
-* ``Qt::AlignmentJustify``
+* ``Qt.AlignmentLeft``
+* ``Qt.AlignmentRight``
+* ``Qt.AlignmentHCenter``
+* ``Qt.AlignmentJustify``
 
 A layout is added to the GridLayout using alternative methods::
 

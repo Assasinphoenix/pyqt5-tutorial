@@ -30,9 +30,9 @@ The alignment of children within the GroupBox is settable via::
 
 By default, the alignment is set to the left-edge, however it can be customised with the *alignment* value being set to one of the following::
 
-* ``Qt::AlignLeft``
-* ``Qt::AlignRight``
-* ``Qt::AlignHCenter``
+* ``Qt.AlignLeft``
+* ``Qt.AlignRight``
+* ``Qt.AlignHCenter``
 
 =======
 Example

@@ -19,7 +19,7 @@ Items can be added to the ToolBox via two methods::
   toolbox.insertItem(index, child, label)
   toolbox.insertItem(index, child, icon, label)
 
-The *child* parameter is the widget to be added to the ToolBox. The *label* value is the item name to be displayed on the ToolBox. An *icon* can also be added to each item using the :doc:`qicon` object. The ``.insertItem()`` method also takes an *index* parameter which indicates the position at which the child should be added.
+The *child* parameter is the widget to be added to the ToolBox. The *label* value is the item name to be displayed on the ToolBox. An *icon* can also be added to each item using the :doc:`icon` object. The ``.insertItem()`` method also takes an *index* parameter which indicates the position at which the child should be added.
 
 Items can also be removed::
 

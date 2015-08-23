@@ -19,10 +19,10 @@ Widgets are inserted into the BoxLayout with the methods::
 
 An *index* value in the ``.insertWidget`` method indicates the location at which the child widget should be placed. The *widget* parameter is the child widget which is to be added to the BoxLayout. The *stretch* value should be set to an integer indicating the factor at which the child widget stretches to fill the space. Finally, the *alignment* value can be set to one of the following:
 
-* ``Qt::AlignmentLeft``
-* ``Qt::AlignmentRight``
-* ``Qt::AlignmentHCenter``
-* ``Qt::AlignmentJustify``
+* ``Qt.AlignmentLeft``
+* ``Qt.AlignmentRight``
+* ``Qt.AlignmentHCenter``
+* ``Qt.AlignmentJustify``
 
 Layout objects are added to the BoxLayout via alternative methods::
 
@@ -46,8 +46,7 @@ The direction of the BoxLayout is settable with the method::
 
 The *direction* parameter should be set to one of the following:
 
-* ``QBoxLayout::LeftToRight``
-* ``QBoxLayout::RightToLeft``
-* ``QBoxLayout::TopToBottom``
-* ``QBoxLayout::BottomToTop``
-
+* ``QBoxLayout.LeftToRight``
+* ``QBoxLayout.RightToLeft``
+* ``QBoxLayout.TopToBottom``
+* ``QBoxLayout.BottomToTop``
