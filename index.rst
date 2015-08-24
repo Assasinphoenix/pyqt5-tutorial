@@ -57,5 +57,6 @@ Contents:
    scrollarea
    plaintextedit
    textedit
+   splashscreen
    wizard
    wizardpage
