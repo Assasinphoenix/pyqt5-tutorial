@@ -9,8 +9,8 @@ Contents:
    :titlesonly:
 
    introduction
-   window
    helloworld
+   window
    boxlayout
    gridlayout
    label
@@ -53,10 +53,25 @@ Contents:
    listwidget
    listwidgetitem
    tablewidget
-   fontcombobox
+   columnview
    scrollarea
    plaintextedit
    textedit
    splashscreen
    wizard
    wizardpage
+
+
+Objects:
+
+.. toctree::
+   :titlesonly:
+
+   color
+   font
+   pixmap
+   icon
+   date
+   time
+   dir
+   action
