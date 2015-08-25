@@ -28,11 +28,25 @@ The alignment of children within the GroupBox is settable via::
 
   groupbox.setAlignment(alignment)
 
-By default, the alignment is set to the left-edge, however it can be customised with the *alignment* value being set to one of the following::
+By default, the alignment is set to the left-edge, however it can be customised with the *alignment* value being set to one of the following:
 
 * ``Qt.AlignLeft``
 * ``Qt.AlignRight``
 * ``Qt.AlignHCenter``
+
+The GroupBox can be made checkable if required. This permits all child :doc:`checkbox` or :doc:`radiobutton` widgets to be made sensitive or insenstive. This is set via::
+
+  groupbox.setCheckable(checkable)
+
+The checked state of the GroupBox can be obtained using::
+
+  groupbox.isChecked()
+
+Programatically setting the checked state of the GroupBox can be done using::
+
+  groupbox.setChecked(checked)
+
+When *checked* is set to ``True``, the GroupBox checkbox will contain a tick. Setting to ``False`` will removed the tick.
 
 =======
 Example
