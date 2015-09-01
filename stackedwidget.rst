@@ -28,18 +28,14 @@ The index value or the widget currently visible widget within the StackedWidget 
   stackedwidget.currentIndex()
   stackedwidget.currentWidget()
 
-Setting the currently visible widget is also done with::
-
-  stackedwidget.setCurrentIndex(index)
-
-To retrieve the number of widgets held by the StackedWidget call::
-
-  stackedwidget.count()
-
 The current page visible can be set by specifying the page index or widget::
 
   stackwidget.setCurrentIndex(index)
   stackwidget.setCurrentWidget(widget)
+
+To retrieve the number of widgets held by the StackedWidget call::
+
+  stackedwidget.count()
 
 =======
 Example
