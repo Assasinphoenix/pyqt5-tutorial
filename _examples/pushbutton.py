@@ -11,10 +11,10 @@ class Window(QWidget):
         self.setLayout(layout)
 
         button = QPushButton("Click Me")
-        button.clicked.connect(self.button_clicked)
+        button.clicked.connect(self.on_button_clicked)
         layout.addWidget(button, 0, 0)
 
-    def button_clicked(self, button):
+    def on_button_clicked(self):
         print("The button was pressed!")
 
 app = QApplication(sys.argv)

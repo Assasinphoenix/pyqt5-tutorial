@@ -10,15 +10,27 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)
 
-        button = QRadioButton("Brazil")
-        button.setChecked(True)
-        layout.addWidget(button, 0, 0)
+        radiobutton = QRadioButton("Brazil")
+        radiobutton.setChecked(True)
+        radiobutton.country = "Brazil"
+        radiobutton.toggled.connect(self.on_radio_button_toggled)
+        layout.addWidget(radiobutton, 0, 0)
 
-        button = QRadioButton("Argentina")
-        layout.addWidget(button, 0, 1)
+        radiobutton = QRadioButton("Argentina")
+        radiobutton.country = "Argentina"
+        radiobutton.toggled.connect(self.on_radio_button_toggled)
+        layout.addWidget(radiobutton, 0, 1)
 
-        button = QRadioButton("Ecuador")
-        layout.addWidget(button, 0, 2)
+        radiobutton = QRadioButton("Ecuador")
+        radiobutton.country = "Ecuador"
+        radiobutton.toggled.connect(self.on_radio_button_toggled)
+        layout.addWidget(radiobutton, 0, 2)
+
+    def on_radio_button_toggled(self):
+        radiobutton = self.sender()
+
+        if radiobutton.isChecked():
+            print("Selected country is %s" % (radiobutton.country))
 
 app = QApplication(sys.argv)
 
