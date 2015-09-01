@@ -68,3 +68,12 @@ If required, the text can be retrieved by calling::
 Reverting to the default text format of a percentage value can be done using::
 
   progressbar.resetFormat()
+
+=======
+Example
+=======
+Below is an example of an ProgressBar:
+
+.. literalinclude:: _examples/progressbar.py
+
+Download: :download:`ProgressBar <_examples/progressbar.py>`

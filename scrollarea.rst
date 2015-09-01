@@ -40,3 +40,12 @@ The child widget can be resized within the ScrollArea via::
   scrollarea.setWidgetResizable(resizable)
 
 When *resizable* is set to ``True``, the ScrollArea automatically resizes the widget to try and avoid scroll bars and take advantage of extra space. If set to ``False``, the default widget size is honoured.
+
+=======
+Example
+=======
+Below is an example of an ScrollArea:
+
+.. literalinclude:: _examples/scrollarea.py
+
+Download: :download:`ScrollArea <_examples/scrollarea.py>`

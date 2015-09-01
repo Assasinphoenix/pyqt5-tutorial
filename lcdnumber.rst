@@ -46,3 +46,12 @@ The display of the decimal point can be configured with the method::
   lcdnumber.setSmallDecimalPoint(small)
 
 When *small* is set to ``True``, the point is drawn between the two numbers. When ``False``, the decimal point occupies a full digit position.
+
+=======
+Example
+=======
+Below is an example of an LCDNumber:
+
+.. literalinclude:: _examples/lcdnumber.py
+
+Download: :download:`LCDNumber <_examples/lcdnumber.py>`

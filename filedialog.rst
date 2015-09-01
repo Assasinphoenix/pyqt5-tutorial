@@ -48,3 +48,11 @@ In some cases, the requirement will be that the dialog only display certain file
 
   filedialog.setFilter(filter)
 
+=======
+Example
+=======
+Below is an example of an FileDialog:
+
+.. literalinclude:: _examples/filedialog.py
+
+Download: :download:`FileDialog <_examples/filedialog.py>`

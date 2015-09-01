@@ -49,3 +49,12 @@ The *setting* parameter should be set to a Boolean value indicating whether the 
 The options in use can be retrieved from the ColorDialog by calling::
 
   colordialog.options()
+
+=======
+Example
+=======
+Below is an example of an ColorDialog:
+
+.. literalinclude:: _examples/colordialog.py
+
+Download: :download:`ColorDialog <_examples/colordialog.py>`

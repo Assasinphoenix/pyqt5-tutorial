@@ -8,3 +8,12 @@ Constructor
 A ButtonGroup is constructed with the call::
 
   buttongroup = QButtonGroup()
+
+=======
+Example
+=======
+Below is an example of an ButtonGroup:
+
+.. literalinclude:: _examples/buttongroup.py
+
+Download: :download:`ButtonGroup <_examples/buttongroup.py>`

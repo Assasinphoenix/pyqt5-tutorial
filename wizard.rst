@@ -51,3 +51,12 @@ The operation of the page movement can be done programmatically by::
   wizard.restart()
 
 The ``.back()`` and ``.next()`` methods will take the user back to the previous page on forward to the next page. The ``.restart()`` call takes the user back to the first page.
+
+=======
+Example
+=======
+Below is an example of an Wizard:
+
+.. literalinclude:: _examples/wizard.py
+
+Download: :download:`Wizard <_examples/wizard.py>`

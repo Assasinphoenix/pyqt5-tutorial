@@ -43,3 +43,12 @@ In some cases, it may be useful to allow the Toolbar to be floated in its own wi
 The widget associated with an Action object can be found using::
 
   toolbar.widgetForAction(action)
+
+=======
+Example
+=======
+Below is an example of an Toolbar:
+
+.. literalinclude:: _examples/toolbar.py
+
+Download: :download:`Toolbar <_examples/toolbar.py>`

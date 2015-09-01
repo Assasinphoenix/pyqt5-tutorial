@@ -36,3 +36,12 @@ Placeholder text can be placed into the PlainTextEdit with::
   plaintextedit.placeholderText(text)
 
 The *text* specified will only be shown in the widget when there is no text loaded.
+
+=======
+Example
+=======
+Below is an example of an PlainTextEdit:
+
+.. literalinclude:: _examples/plaintextedit.py
+
+Download: :download:`PlainTextEdit <_examples/plaintextedit.py>`

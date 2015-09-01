@@ -26,7 +26,7 @@ An alternative is to add multiple items with a single method::
 
 Separators can be inserted into a specific position within the ComboBox popup with::
 
-  comobbox.insertSeparator(index)
+  combobox.insertSeparator(index)
 
 Removal of items is done with the method::
 

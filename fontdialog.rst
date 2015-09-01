@@ -48,3 +48,12 @@ The *options* value can be set to one or more of the following constants:
 Retrieval of the options from the dialog is done by calling::
 
   fontdialog.options()
+
+=======
+Example
+=======
+Below is an example of an FontDialog:
+
+.. literalinclude:: _examples/fontdialog.py
+
+Download: :download:`FontDialog <_examples/fontdialog.py>`

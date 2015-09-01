@@ -33,3 +33,12 @@ Displaying of a message on the SplashScreen is able to be done via the method::
 A message can also be cleared from display via::
 
   splashscreen.clearMessage()
+
+=======
+Example
+=======
+Below is an example of an SplashScreen:
+
+.. literalinclude:: _examples/splashscreen.py
+
+Download: :download:`SplashScreen <_examples/splashscreen.py>`

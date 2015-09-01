@@ -17,3 +17,12 @@ The *orientation* parameter should be set to one of the following::
 
   * ``Qt.Horizontal``
   * ``Qt.Vertical``
+
+=======
+Example
+=======
+Below is an example of an ScrollBar:
+
+.. literalinclude:: _examples/scrollbar.py
+
+Download: :download:`ScrollBar <_examples/scrollbar.py>`

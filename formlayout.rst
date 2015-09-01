@@ -41,3 +41,12 @@ The *policy* parameter can be set to one of the following:
 * ``QFormLayout.FieldsStayAtSizeHint`` - the fields never grow beyond their size hint.
 * ``QFormLayout.ExpandingFieldsGrow`` - when set to expand, the fields will grow to fill the available space.
 * ``QFormLayout.AllNonFixedFieldsGrow`` - all fields will grow to fill the available space.
+
+=======
+Example
+=======
+Below is an example of an FormLayout:
+
+.. literalinclude:: _examples/formlayout.py
+
+Download: :download:`FormLayout <_examples/formlayout.py>`

@@ -41,3 +41,12 @@ The *shape* parameter should be set to one of the following:
 * ``QFrame::HLine`` - draw a horizontal line as a separator.
 * ``QFrame::VLine`` - draw a vertical line as a separator.
 * ``QFrame::WinPanel`` - draw a rectangular panel, raised or sunken, similar to those found in Windows 2000.
+
+=======
+Example
+=======
+Below is an example of an Frame:
+
+.. literalinclude:: _examples/frame.py
+
+Download: :download:`Frame <_examples/frame.py>`

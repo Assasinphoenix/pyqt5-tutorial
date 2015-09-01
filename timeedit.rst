@@ -31,3 +31,12 @@ The ranges defined for minimum and maximum times are cleared with::
 
   timeedit.clearMinimumTime()
   timeedit.clearMaximumTime()
+
+=======
+Example
+=======
+Below is an example of an TimeEdit:
+
+.. literalinclude:: _examples/timeedit.py
+
+Download: :download:`TimeEdit <_examples/timeedit.py>`

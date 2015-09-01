@@ -17,3 +17,12 @@ Methods
 To configure the visibility of the SizeGrip use::
 
   sizegrip.setVisible(visible)
+
+=======
+Example
+=======
+Below is an example of an SizeGrip:
+
+.. literalinclude:: _examples/sizegrip.py
+
+Download: :download:`SizeGrip <_examples/sizegrip.py>`

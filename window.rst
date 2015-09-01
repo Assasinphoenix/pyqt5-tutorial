@@ -40,3 +40,12 @@ A specific width and/or height can also be declared via::
 
   window.setWidth(width)
   window.setHeight(height)
+
+=======
+Example
+=======
+Below is an example of an Window:
+
+.. literalinclude:: _examples/window.py
+
+Download: :download:`Window <_examples/window.py>`

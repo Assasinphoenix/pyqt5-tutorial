@@ -33,3 +33,12 @@ The *prefix* and *suffix* parameters should be set to a string. It is useful whe
 By default, the adjustment arrows change the displayed value by 1. The step can be changed with::
 
   spinbox.setSingleStep(value)
+
+=======
+Example
+=======
+Below is an example of an SpinBox:
+
+.. literalinclude:: _examples/spinbox.py
+
+Download: :download:`SpinBox <_examples/spinbox.py>`

@@ -48,3 +48,12 @@ It can also be defined using::
   splitter.setHandleWidth(width)
 
 The *width* parameter again should be specified in pixels.
+
+=======
+Example
+=======
+Below is an example of an Splitter:
+
+.. literalinclude:: _examples/splitter.py
+
+Download: :download:`Splitter <_examples/splitter.py>`
