@@ -73,5 +73,7 @@ Objects:
    icon
    date
    time
+   datetime
    dir
+   file
    action
