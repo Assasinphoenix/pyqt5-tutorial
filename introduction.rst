@@ -11,7 +11,7 @@ This tutorial does not guide through the process of building an application from
 =======
 License
 =======
-This tutorial, and associated examples are released under a Public Domain licence. If you jurisdiction does not permit or recognise the Public Domain, it is considered released under a Creative Commons Zero licence.
+This tutorial, and associated examples are released under a Public Domain licence. If you jurisdiction does not permit or recognise the Public Domain, it is considered released under a Creative Commons Zero 1.0 Universal licence.
 
 ==========
 Versioning
