@@ -9,7 +9,7 @@ Methods
 =======
 Example
 =======
-Below is an example of an ToolTip:
+Below is an example of a ToolTip:
 
 .. literalinclude:: _examples/tooltip.py
 

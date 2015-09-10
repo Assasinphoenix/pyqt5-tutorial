@@ -5,7 +5,7 @@ The FontComboBox widget provides a way for a user to select a font family from a
 =======
 Example
 =======
-Below is an example of an FontComboBox:
+Below is an example of a FontComboBox:
 
 .. literalinclude:: _examples/fontcombobox.py
 

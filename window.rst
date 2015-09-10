@@ -44,7 +44,7 @@ A specific width and/or height can also be declared via::
 =======
 Example
 =======
-Below is an example of an Window:
+Below is an example of a Window:
 
 .. literalinclude:: _examples/window.py
 

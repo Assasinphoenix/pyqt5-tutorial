@@ -52,7 +52,7 @@ The *width* parameter again should be specified in pixels.
 =======
 Example
 =======
-Below is an example of an Splitter:
+Below is an example of a Splitter:
 
 .. literalinclude:: _examples/splitter.py
 

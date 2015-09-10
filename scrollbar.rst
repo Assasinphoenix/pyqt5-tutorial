@@ -21,7 +21,7 @@ The *orientation* parameter should be set to one of the following::
 =======
 Example
 =======
-Below is an example of an ScrollBar:
+Below is an example of a ScrollBar:
 
 .. literalinclude:: _examples/scrollbar.py
 

@@ -22,7 +22,7 @@ When *enabled* is set as ``True``, the SizeGrip will be added.
 =======
 Example
 =======
-Below is an example of an Dialog:
+Below is an example of a Dialog:
 
 .. literalinclude:: _examples/dialog.py
 

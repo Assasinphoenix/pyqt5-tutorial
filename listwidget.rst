@@ -69,7 +69,7 @@ Alternatively, the current item can be fetched when selected by the method::
 =======
 Example
 =======
-Below is an example of an ListWidget:
+Below is an example of a ListWidget:
 
 .. literalinclude:: _examples/listwidget.py
 

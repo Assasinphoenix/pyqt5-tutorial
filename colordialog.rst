@@ -53,7 +53,7 @@ The options in use can be retrieved from the ColorDialog by calling::
 =======
 Example
 =======
-Below is an example of an ColorDialog:
+Below is an example of a ColorDialog:
 
 .. literalinclude:: _examples/colordialog.py
 

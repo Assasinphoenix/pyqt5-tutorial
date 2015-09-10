@@ -44,7 +44,7 @@ Alternatively, it may be useful to run on a function after each change made::
 =======
 Example
 =======
-Below is an example of an LineEdit:
+Below is an example of a LineEdit:
 
 .. literalinclude:: _examples/lineedit.py
 

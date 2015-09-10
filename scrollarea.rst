@@ -44,7 +44,7 @@ When *resizable* is set to ``True``, the ScrollArea automatically resizes the wi
 =======
 Example
 =======
-Below is an example of an ScrollArea:
+Below is an example of a ScrollArea:
 
 .. literalinclude:: _examples/scrollarea.py
 

@@ -38,7 +38,7 @@ If *tracking* is set to ``True``, the Slider will call the associated update fun
 =======
 Example
 =======
-Below is an example of an Slider:
+Below is an example of a Slider:
 
 .. literalinclude:: _examples/slider.py
 

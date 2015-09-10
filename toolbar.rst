@@ -47,7 +47,7 @@ The widget associated with an Action object can be found using::
 =======
 Example
 =======
-Below is an example of an Toolbar:
+Below is an example of a Toolbar:
 
 .. literalinclude:: _examples/toolbar.py
 

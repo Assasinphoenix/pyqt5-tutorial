@@ -21,7 +21,7 @@ To configure the visibility of the SizeGrip use::
 =======
 Example
 =======
-Below is an example of an SizeGrip:
+Below is an example of a SizeGrip:
 
 .. literalinclude:: _examples/sizegrip.py
 

@@ -1,6 +1,6 @@
 TabWidget
 =========
-The TabWidget provides a container with multiple pages which are 
+The TabWidget provides a container with multiple pages which are
 switchable via tabs. Each page can contain a widget or other containers.
 
 ===========
@@ -18,11 +18,11 @@ Tabs are added to the TabWidget via several methods::
   tabwidget.addTab(child, label)
   tabwidget.insertTab(index, child, label)
 
-The ``.addTab()`` method adds each tab in the order the code is executed 
-whereas the ``.insertTab()`` method allows an *index* value indicating 
-the location to insert the tab, with the first position identified as 
-``0``. The *child* parameter is the name of the child object to be added 
-to the tab. Finally, the *label* parameter is the text to be displayed 
+The ``.addTab()`` method adds each tab in the order the code is executed
+whereas the ``.insertTab()`` method allows an *index* value indicating
+the location to insert the tab, with the first position identified as
+``0``. The *child* parameter is the name of the child object to be added
+to the tab. Finally, the *label* parameter is the text to be displayed
 on the tab itself.
 
 Tabs are removed from the TabWidget via::
@@ -39,14 +39,14 @@ The number of tabs contained can be counted using::
 
   count = tabWidget.count()
 
-If the TabWidget contains less than two tabs, the tab bar can be 
+If the TabWidget contains less than two tabs, the tab bar can be
 configured to hide::
 
   tabWidget.tabBarAutoHide(hide)
 
 When *hide* is set to ``True``, the tab bar will be hidden.
 
-In some cases, individual tabs should be removable. A close button can 
+In some cases, individual tabs should be removable. A close button can
 be added to each tab using::
 
   tabWidget.setTabsClosable(closable)
@@ -54,7 +54,7 @@ be added to each tab using::
 =======
 Example
 =======
-Below is an example of an TabWidget:
+Below is an example of a TabWidget:
 
 .. literalinclude:: _examples/tabwidget.py
 

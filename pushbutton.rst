@@ -44,7 +44,7 @@ One of the common functions of a button is to be clicked by the user, and perfor
 =======
 Example
 =======
-Below is an example of an PushButton:
+Below is an example of a PushButton:
 
 .. literalinclude:: _examples/pushbutton.py
 

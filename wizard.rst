@@ -55,7 +55,7 @@ The ``.back()`` and ``.next()`` methods will take the user back to the previous 
 =======
 Example
 =======
-Below is an example of an Wizard:
+Below is an example of a Wizard:
 
 .. literalinclude:: _examples/wizard.py
 

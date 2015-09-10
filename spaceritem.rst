@@ -12,7 +12,7 @@ The constructor for the SpacerItem is::
 =======
 Example
 =======
-Below is an example of an SpacerItem:
+Below is an example of a SpacerItem:
 
 .. literalinclude:: _examples/spaceritem.py
 

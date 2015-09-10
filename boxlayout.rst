@@ -54,7 +54,7 @@ The *direction* parameter should be set to one of the following:
 =======
 Example
 =======
-Below is an example of an BoxLayout:
+Below is an example of a BoxLayout:
 
 .. literalinclude:: _examples/boxlayout.py
 

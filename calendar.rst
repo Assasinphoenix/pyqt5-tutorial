@@ -62,7 +62,7 @@ When the date selection is changed, either by the user changing the date or by p
 =======
 Example
 =======
-Below is an example of an Calendar:
+Below is an example of a Calendar:
 
 .. literalinclude:: _examples/calendar.py
 

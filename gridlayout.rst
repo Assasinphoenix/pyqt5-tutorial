@@ -54,7 +54,7 @@ The number of rows and columns can be obtained from the container with::
 =======
 Example
 =======
-Below is an example of an GridLayout:
+Below is an example of a GridLayout:
 
 .. literalinclude:: _examples/gridlayout.py
 

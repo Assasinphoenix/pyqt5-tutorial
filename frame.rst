@@ -45,7 +45,7 @@ The *shape* parameter should be set to one of the following:
 =======
 Example
 =======
-Below is an example of an Frame:
+Below is an example of a Frame:
 
 .. literalinclude:: _examples/frame.py
 

@@ -31,7 +31,7 @@ By default, all RadioButton widgets within the window will be assigned to the sa
 =======
 Example
 =======
-Below is an example of an RadioButton:
+Below is an example of a RadioButton:
 
 .. literalinclude:: _examples/radiobutton.py
 

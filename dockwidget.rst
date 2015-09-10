@@ -57,7 +57,7 @@ If a widget is to be added as the title rather than a simple label, the add meth
 =======
 Example
 =======
-Below is an example of an DockWidget:
+Below is an example of a DockWidget:
 
 .. literalinclude:: _examples/dockwidget.py
 

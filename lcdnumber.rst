@@ -50,7 +50,7 @@ When *small* is set to ``True``, the point is drawn between the two numbers. Whe
 =======
 Example
 =======
-Below is an example of an LCDNumber:
+Below is an example of a LCDNumber:
 
 .. literalinclude:: _examples/lcdnumber.py
 

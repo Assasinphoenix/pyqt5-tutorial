@@ -37,7 +37,7 @@ By default, the adjustment arrows change the displayed value by 1. The step can 
 =======
 Example
 =======
-Below is an example of an DoubleSpinBox:
+Below is an example of a DoubleSpinBox:
 
 .. literalinclude:: _examples/doublespinbox.py
 

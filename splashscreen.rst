@@ -37,7 +37,7 @@ A message can also be cleared from display via::
 =======
 Example
 =======
-Below is an example of an SplashScreen:
+Below is an example of a SplashScreen:
 
 .. literalinclude:: _examples/splashscreen.py
 

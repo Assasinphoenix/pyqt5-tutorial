@@ -45,7 +45,7 @@ The *policy* parameter can be set to one of the following:
 =======
 Example
 =======
-Below is an example of an FormLayout:
+Below is an example of a FormLayout:
 
 .. literalinclude:: _examples/formlayout.py
 

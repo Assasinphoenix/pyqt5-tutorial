@@ -52,7 +52,7 @@ Retrieval of the options from the dialog is done by calling::
 =======
 Example
 =======
-Below is an example of an FontDialog:
+Below is an example of a FontDialog:
 
 .. literalinclude:: _examples/fontdialog.py
 

@@ -33,7 +33,7 @@ A tick in the CheckBox will return ``True`` from the method, while ``False`` is 
 =======
 Example
 =======
-Below is an example of an CheckBox:
+Below is an example of a CheckBox:
 
 .. literalinclude:: _examples/checkbox.py
 

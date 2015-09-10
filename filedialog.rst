@@ -51,7 +51,7 @@ In some cases, the requirement will be that the dialog only display certain file
 =======
 Example
 =======
-Below is an example of an FileDialog:
+Below is an example of a FileDialog:
 
 .. literalinclude:: _examples/filedialog.py
 

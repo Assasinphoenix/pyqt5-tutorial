@@ -37,7 +37,7 @@ By default, the adjustment arrows change the displayed value by 1. The step can 
 =======
 Example
 =======
-Below is an example of an SpinBox:
+Below is an example of a SpinBox:
 
 .. literalinclude:: _examples/spinbox.py
 

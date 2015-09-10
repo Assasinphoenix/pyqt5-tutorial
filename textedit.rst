@@ -7,7 +7,7 @@ Smaller amounts of text are probably best being displayed using the :doc:`label`
 =======
 Example
 =======
-Below is an example of an TextEdit:
+Below is an example of a TextEdit:
 
 .. literalinclude:: _examples/textedit.py
 

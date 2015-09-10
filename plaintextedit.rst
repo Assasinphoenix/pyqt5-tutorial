@@ -40,7 +40,7 @@ The *text* specified will only be shown in the widget when there is no text load
 =======
 Example
 =======
-Below is an example of an PlainTextEdit:
+Below is an example of a PlainTextEdit:
 
 .. literalinclude:: _examples/plaintextedit.py
 

@@ -51,7 +51,7 @@ When *checked* is set to ``True``, the GroupBox checkbox will contain a tick. Se
 =======
 Example
 =======
-Below is an example of an GroupBox:
+Below is an example of a GroupBox:
 
 .. literalinclude:: _examples/groupbox.py
 

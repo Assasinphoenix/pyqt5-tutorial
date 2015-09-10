@@ -72,7 +72,7 @@ Alternatively, the widget for a given index number is found using::
 =======
 Example
 =======
-Below is an example of an ToolBox:
+Below is an example of a ToolBox:
 
 .. literalinclude:: _examples/toolbox.py
 

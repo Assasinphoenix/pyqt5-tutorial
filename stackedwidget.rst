@@ -40,7 +40,7 @@ To retrieve the number of widgets held by the StackedWidget call::
 =======
 Example
 =======
-Below is an example of an StackedWidget:
+Below is an example of a StackedWidget:
 
 .. literalinclude:: _examples/stackedwidget.py
 

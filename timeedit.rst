@@ -35,7 +35,7 @@ The ranges defined for minimum and maximum times are cleared with::
 =======
 Example
 =======
-Below is an example of an TimeEdit:
+Below is an example of a TimeEdit:
 
 .. literalinclude:: _examples/timeedit.py
 

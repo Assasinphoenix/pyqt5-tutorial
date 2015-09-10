@@ -12,7 +12,7 @@ A ButtonGroup is constructed with the call::
 =======
 Example
 =======
-Below is an example of an ButtonGroup:
+Below is an example of a ButtonGroup:
 
 .. literalinclude:: _examples/buttongroup.py
 

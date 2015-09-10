@@ -72,7 +72,7 @@ Reverting to the default text format of a percentage value can be done using::
 =======
 Example
 =======
-Below is an example of an ProgressBar:
+Below is an example of a ProgressBar:
 
 .. literalinclude:: _examples/progressbar.py
 
