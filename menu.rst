@@ -18,7 +18,7 @@ Methods
 =======
 Adding an item to the Menu with a simple text entry is done with::
 
-  item = menu.addItem(text)
+  action = menu.addAction(text)
 
 The *text* value should be set to the purpose of the action item. When called, it also returns the object for the item, allowing other :doc:`action` methods to be applied.
 
@@ -43,3 +43,11 @@ To add a separator between items in the Menu use::
 All the items contained by the Menu can be cleared with the method::
 
   menu.clear()
+
+The tearoff functionality allows menus to be floated in a window for easy access. This can be enabled on a menu with::
+
+  menu.setTearOffEnabled(enabled)
+
+A title should also be set when using the tearoff functionality, to ensure the floating window has an appropriate title::
+
+  menu.setTitle(title)
