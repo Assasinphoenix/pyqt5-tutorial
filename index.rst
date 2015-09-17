@@ -71,6 +71,7 @@ Objects:
    font
    pixmap
    icon
+   size
    date
    time
    datetime
