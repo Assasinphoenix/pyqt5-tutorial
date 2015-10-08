@@ -2,6 +2,13 @@ Dialog
 ======
 A Dialog is effectively similar to a :doc:`window` in appearance. It is commonly used in very simple applications, or as a sub-window (e.g. preferences) of an application.
 
+===========
+Constructor
+===========
+The Dialog window is constructed with the call::
+
+  dialog = QDialog()
+
 =======
 Methods
 =======
