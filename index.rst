@@ -36,6 +36,7 @@ Contents:
    progressbar
    toolbar
    toolbox
+   toolbutton
    menubar
    menu
    tabwidget
