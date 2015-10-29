@@ -24,7 +24,7 @@ Standard buttons are Qt provided buttons which can easily be added to the Messag
 
   messagebox.setStandardButtons(buttons)
 
-The standard buttons supported are::
+The standard buttons supported are:
 
 * ``QMessageBox.Ok``
 * ``QMessageBox.Open``
@@ -45,7 +45,7 @@ The standard buttons supported are::
 * ``QMessageBox.Retry``
 * ``QMessageBox.Ignore``
 
-A user can add and remove a button manually with::
+A user can add and remove extra buttons manually with::
 
   messagebox.addButton(button)
   messagebox.removeButton(button)
@@ -63,3 +63,12 @@ The *icon* parameter should be set to:
 * ``QMessageBox.Information``
 * ``QMessageBox.Warning``
 * ``QMessageBox.Critical``
+
+=======
+Example
+=======
+Below is an example of a MessageBox:
+
+.. literalinclude:: _examples/messagebox.py
+
+Download: :download:`MessageBox <_examples/messagebox.py>`
