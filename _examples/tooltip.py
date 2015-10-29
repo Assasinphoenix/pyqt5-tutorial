@@ -10,9 +10,13 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)
 
-        button = QPushButton("PushButton")
-        button.setToolTip("ToolTip for a PushButton")
+        button = QPushButton("Simple ToolTip")
+        button.setToolTip("This ToolTip simply displays text.")
         layout.addWidget(button, 0, 0)
+
+        button = QPushButton("Formatted ToolTip")
+        button.setToolTip("<b>Formatted text</b> can also be displayed.")
+        layout.addWidget(button, 1, 0)
 
 app = QApplication(sys.argv)
 

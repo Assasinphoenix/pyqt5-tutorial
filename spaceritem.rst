@@ -1,6 +1,6 @@
 SpacerItem
 ==========
-A SpacerItem provides a blank space in a layout.
+A SpacerItem provides a blank space in a layout. In most cases, the SpacerItem is not required as both the :doc:`boxlayout` and :doc:`gridlayout` containers provide spacing declarations.
 
 ===========
 Constructor
