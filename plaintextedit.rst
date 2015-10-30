@@ -29,13 +29,50 @@ When *read_only* is set to ``True``, the user will only be able to navigate thro
 
 The read-only state of the widget can also be retrieved using::
 
-  read_only = plaintextedit.isReadOnly()
+  plaintextedit.isReadOnly()
 
 Placeholder text can be placed into the PlainTextEdit with::
 
-  plaintextedit.placeholderText(text)
+  plaintextedit.setPlaceholderText(text)
 
 The *text* specified will only be shown in the widget when there is no text loaded.
+
+The title of the document can be set via::
+
+  plaintextedit.setDocumentTitle(title)
+
+Retrieval of the title string is also done with::
+
+  plaintextedit.documentTitle()
+
+The text held by the PlainTextEdit can also be line wrapped if required::
+
+  plaintextedit.setLineWrapMode(mode)
+
+The *mode* value should be set to one of the following:
+
+* ``QPlainTextEdit.NoWrap`` - do not wrap the text.
+* ``QPlainTextEdit.WidgetWidth`` - wrap text at width of PlainTextEdit.
+
+Word wrapping is also enabled separately::
+
+  plaintextedit.setWordWrapMode(mode)
+
+The *mode* value in this case should be set to:
+
+* ``QTextOption.NoWrap`` - text is not wrapped.
+* ``QTextOption.WordWrap`` - wrap text at end of words.
+* ``QTextOption.ManualWrap`` - same as the ``NoWrap`` constant.
+* ``QTextOption.WrapAnywhere`` - wrap text anywhere, even in the middle of a word if required.
+* ``QTextOption.WrapAtWordBoundaryOrAnywhere`` - wrap at end of a word, or anywhere if there is no other option.
+
+By default, any text entered into the PlainTextEdit will be inserted. Existing text can be overwritten instead via::
+
+  plaintextedit.setOverwriteMode(overwrite)
+
+Undo and redo support is enabled on a PlainTextEdit. This can be turned off if not required using::
+
+  plaintextedit.setUndoRedoEnabled(enable)
 
 =======
 Example

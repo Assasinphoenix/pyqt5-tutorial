@@ -5,7 +5,7 @@ A Slider provides a way to adjust a numerical value by moving a slide along a ru
 ===========
 Constructor
 ===========
-Slider's are constructed using::
+Slider widgets are constructed using::
 
   slider = QSlider(orientation)
 
@@ -34,6 +34,25 @@ The Slider emits a signal that the value has changed whenever the user stops sli
   slider.setTracking(tracking)
 
 If *tracking* is set to ``True``, the Slider will call the associated update function repeatedly when moving.
+
+Ticks can be added to the Slider scale at set positions to ease the user in viewing where on the scale the marker is. The method for this is::
+
+  slider.setTickInterval(interval)
+
+The *interval* value should be a number, which indicates the gap between each tick.
+
+The position of the ticks can be configured via::
+
+  slider.setTickPosition(position)
+
+The *position* value should be set to one of:
+
+* ``QSlider.NoTicks`` - do not draw tick marks.
+* ``QSlider.TicksBothSides`` - draw ticks on both sides of the scale.
+* ``QSlider.TicksAbove`` - draw ticks above the horizontal slider.
+* ``QSlider.TicksBelow`` - draw ticks below the horizontal slider.
+* ``QSlider.TicksLeft`` - draw ticks to the left of the vertical slider.
+* ``QSlider.TicksRight`` - draw ticks to the right of the vertical slider.
 
 =======
 Example
