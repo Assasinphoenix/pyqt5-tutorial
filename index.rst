@@ -61,6 +61,7 @@ Contents:
    splashscreen
    wizard
    wizardpage
+   clipboard
 
 
 Objects:
