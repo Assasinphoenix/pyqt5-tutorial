@@ -2,6 +2,10 @@ Date
 ====
 The Date object provides an interface for handling dates, and is used by some widgets such as the :doc:`calendar` to represent a date.
 
+.. note::
+
+  Alternatives to the Date object includes the :doc:`datetime`, allowing both times and dates to be stored and the :doc:`time` object which is used only for time values.
+
 ===========
 Constructor
 ===========

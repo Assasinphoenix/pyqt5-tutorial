@@ -27,6 +27,7 @@ Contents:
    frame
    slider
    scrollbar
+   scrollarea
    dial
    spinbox
    doublespinbox
@@ -40,12 +41,15 @@ Contents:
    menubar
    menu
    tabwidget
+   tabbar
    stackedwidget
    dockwidget
    formlayout
    combobox
    calendar
+   dateedit
    timeedit
+   datetimeedit
    dialog
    filedialog
    fontdialog
@@ -59,6 +63,7 @@ Contents:
    plaintextedit
    textedit
    splashscreen
+   messagebox
    wizard
    wizardpage
    clipboard
