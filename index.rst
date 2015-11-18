@@ -46,6 +46,7 @@ Contents:
    dockwidget
    formlayout
    combobox
+   completer
    calendar
    dateedit
    timeedit

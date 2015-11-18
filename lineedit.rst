@@ -14,7 +14,7 @@ Both of the methods overwrite any existing text.
 
 Text is also retrieved from the widget by::
 
-  text = lineedit.text()
+  lineedit.text()
 
 Another useful feature is to show placeholder text in the LineEdit, which indicates the widgets purpose::
 
@@ -29,6 +29,10 @@ When *read_only* is set to ``True``, the widget will not allow its content to be
 The default setting of the LineEdit is to allow 32767 characters to be entered into the field. This can be limited by::
 
   lineedit.setMaxLength(length)
+
+A :doc:`completer` can be added to the LineEdit using the method::
+
+  lineedit.setCompleter(completer)
 
 =======
 Signals

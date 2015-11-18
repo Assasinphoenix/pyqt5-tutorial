@@ -52,6 +52,10 @@ The ComboBox popup menu can be shown or hidden programmatically with::
   combobox.showPopup()
   combobox.hidePopup()
 
+Auto-completion functionality with the :doc:`completer` object can be added to the ComboBox widget with::
+
+  combobox.setCompleter(completer)
+
 =======
 Example
 =======
