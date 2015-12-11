@@ -1,27 +1,35 @@
 DoubleSpinBox
 =============
-A DoubleSpinBox is much like a regular :doc:`spinbox`, however it is used to handle double type numbers.
+A DoubleSpinBox is much like a regular :doc:`spinbox`, however it is used to handle double type numbers. It supports numerical entry via the keyboard, or using the adjustment buttons built into the widget.
 
 ===========
 Constructor
 ===========
-The DoubleSpinBox is constructed with the call::
+The DoubleSpinBox widget is constructed with the call::
 
   doublespinbox = QDoubleSpinBox()
 
 =======
 Methods
 =======
-Minimum and maximum values are defined for the DoubleSpinBox using::
-
-  doublespinbox.minimum(value)
-  doublespinbox.maximum(value)
-
 Setting a value on the DoubleSpinBox is done using::
 
-  doublespinbox.value(value)
+  doublespinbox.setValue(value)
 
 If the *value* paramter is out of the minimum and maximum boundaries, the value will be adjusted so that it fits between the minimum and maximum.
+
+The value set in the DoubleSpinBox is retrievable via the use of::
+
+  doublespinbox.value()
+
+Minimum and maximum values are defined for the DoubleSpinBox using::
+
+  doublespinbox.setMinimum(value)
+  doublespinbox.setMaximum(value)
+
+If both minimum and maximum values are required, the range can be defined in a single method::
+
+  doublespinbox.setRange(minimum, maximum)
 
 A prefix and suffix can be displayed within the DoubleSpinBox::
 
