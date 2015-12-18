@@ -35,6 +35,7 @@ Contents:
    image
    spaceritem
    progressbar
+   progressdialog
    toolbar
    toolbox
    toolbutton
