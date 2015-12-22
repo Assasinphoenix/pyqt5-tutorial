@@ -32,7 +32,7 @@ A number of customisations can be made to the DockWidget with the method::
 
   dockwidget.setFeatures(features)
 
-The features list can include the following::
+The features list can include the following:
 
 * ``QDockWidget.DockWidgetClosable`` - allow the DockWidget to be closed.
 * ``QDockWidget.DockWidgetMovable`` - allow the DockWidget to be moved.

@@ -81,7 +81,7 @@ The default appearance is to display all tabs at the top of the widget. This can
 
   tabWidget.setTabPosition(position)
 
-The *position* value should be set to one of::
+The *position* value should be set to one of:
 
 * ``QTabWidget.North`` - draw tabs at top (default).
 * ``QTabWidget.South`` - draw tabs at bottom.

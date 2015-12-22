@@ -79,7 +79,7 @@ Control over whether a user-added item should appear in the ComboBox can be set 
 
   combobox.setInsertPolicy(policy)
 
-The *policy* parameter should be set to one of the following::
+The *policy* parameter should be set to one of the following:
 
 * ``QComboBox.NoInsert`` - the item will not be inserted into the ComboBox.
 * ``QComboBox.InsertAtTop`` - item will be added as the first in the ComboBox.

@@ -26,7 +26,7 @@ When *flat* is set to ``True``, the button does not appear raised.
 
 To check whether a button has been set to flat or not, call::
 
-  flat = pushbutton.isFlat()
+  pushbutton.isFlat()
 
 Button widgets can also be used to display a dropdown menu rather than simply being clickable. The menu is associated using::
 

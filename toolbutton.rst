@@ -44,7 +44,7 @@ If a menu is in use with the ToolButton, the way the menu pops up can be configu
 
   toolbutton.setPopupMode(mode)
 
-The *mode* value should be set to one of::
+The *mode* value should be set to one of:
 
 * ``QToolButton.DelayPopup`` - the Menu is shown when the ToolButton is pressed and held for a set time.
 * ``QToolButton.MenuButtonPopup`` - show an arrow next to the ToolButton, which displays the Menu object when clicked.

@@ -43,7 +43,7 @@ By default, the TableWidget allows multiple rows to be selected. This can be con
 
   tablewidget.setSelectionMode(mode)
 
-The *mode* parameter should be set to one of::
+The *mode* parameter should be set to one of:
 
 * ``QAbstractItemView.NoSelection``
 * ``QAbstractItemView.SingleSelection``
@@ -55,7 +55,7 @@ Also default is the ability to edit the contents of a cell when selected. This i
 
   tablewidget.setEditTriggers(triggers)
 
-The *triggers* value can be set to one of the following::
+The *triggers* value can be set to one of the following:
 
 * ``QAbstractItemView.NoEditTriggers`` - no editing possible.
 * ``QAbstractItemView.CurrentChanged`` - start editing when the current item changes.

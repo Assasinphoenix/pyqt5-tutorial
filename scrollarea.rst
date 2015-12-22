@@ -26,7 +26,7 @@ The added widget can be positioned within the area via::
 
   scrollarea.setAlignment(alignment)
 
-Set the *alignment* value to one of the following::
+Set the *alignment* value to one of the following:
 
 * ``Qt.AlignLeft``
 * ``Qt.AlignRight``

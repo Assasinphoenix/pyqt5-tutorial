@@ -43,7 +43,7 @@ The direction of the sort can also be configured by::
 
   listwidget.sortItems(order)
 
-The *order* parameter should be set to one of::
+The *order* parameter should be set to one of:
 
 * ``Qt.AscendingOrder``
 * ``Qt.DescendingOrder``

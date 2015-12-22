@@ -13,10 +13,10 @@ The orientation can also be defined at construction time via::
 
   scrollbar = QScrollBar(orientation)
 
-The *orientation* parameter should be set to one of the following::
+The *orientation* parameter should be set to one of the following:
 
-  * ``Qt.Horizontal``
-  * ``Qt.Vertical``
+* ``Qt.Horizontal``
+* ``Qt.Vertical``
 
 =======
 Example

@@ -38,12 +38,12 @@ Options customising the dialog state is done using::
 
 The *options* value can be set to one or more of the following constants:
 
-* ``QFontDialog::NoButtons`` - do not show any OK or Cancel buttons.
-* ``QFontDialog::DontUseNativeDialog`` - use Qt dialog rather than the native platform dialog.
-* ``QFontDialog::ScalableFonts`` - show scalable fonts.
-* ``QFontDialog::NonScalableFonts`` - show non-scalable fonts.
-* ``QFontDialog::MonospacedFonts`` - show monospaced fonts.
-* ``QFontDialog::ProportionalFonts`` - show proportional fonts.
+* ``QFontDialog.NoButtons`` - do not show any OK or Cancel buttons.
+* ``QFontDialog.DontUseNativeDialog`` - use Qt dialog rather than the native platform dialog.
+* ``QFontDialog.ScalableFonts`` - show scalable fonts.
+* ``QFontDialog.NonScalableFonts`` - show non-scalable fonts.
+* ``QFontDialog.MonospacedFonts`` - show monospaced fonts.
+* ``QFontDialog.ProportionalFonts`` - show proportional fonts.
 
 Retrieval of the options from the dialog is done by calling::
 

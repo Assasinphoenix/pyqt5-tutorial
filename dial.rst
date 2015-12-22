@@ -40,6 +40,14 @@ By default, the Dial will wrap so that dragging from the highest number will res
 
 When *wrapping* is set to ``False``, the user will need to drag the Dial all the way back around from the highest to lowest point.
 
+A notch target can be defined. This holds the number of pixels which the Dial attempts to place between notches, with a default of 3.7 pixels. This can be modified by the method::
+
+  dial.setNotchTarget(target)
+
+Notches can also be toggled visible or invisible with::
+
+  dial.setNotchesVisible(visible)
+
 =======
 Example
 =======

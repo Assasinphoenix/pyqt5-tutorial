@@ -20,7 +20,7 @@ To set or change the text after construction, call::
 
 Text can also be retrieved from the Label via::
 
-  text = label.text()
+  label.text()
 
 Alignment defaults for the Label is to position text to the left of the label, and central vertically. This can be customised::
 

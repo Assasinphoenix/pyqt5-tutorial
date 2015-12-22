@@ -22,8 +22,8 @@ To define whether the dialog is to be used for opening or saving files call::
 
 The *mode* value should be set to one of:
 
-* ``QFileDialog::AcceptOpen``
-* ``QFileDialog::AcceptSave``
+* ``QFileDialog.AcceptOpen``
+* ``QFileDialog.AcceptSave``
 
 Text can be displayed in the FileDialog indicating the purpose with::
 
@@ -41,8 +41,8 @@ Configuration of the displayed information within the FileDialog can be done wit
 
 The *mode* in this case can be set to:
 
-* ``QFileDialog::Detail`` - display an icon, name, and details for each item.
-* ``QFileDialog::List`` - display icon and name only.
+* ``QFileDialog.Detail`` - display an icon, name, and details for each item.
+* ``QFileDialog.List`` - display icon and name only.
 
 In some cases, the requirement will be that the dialog only display certain file types. The :doc:`dir` object can be set with::
 

@@ -27,7 +27,7 @@ LCDNumber supports a number of modes including decimal, hex, oct, and binary whi
 
   lcdnumber.setMode(mode)
 
-The *mode* should be set to one of::
+The *mode* should be set to one of:
 
 * ``Bin``
 * ``Oct``

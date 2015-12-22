@@ -26,7 +26,7 @@ By default, all fonts installed on the system are shown. These can be filtered u
 
   fontcombobox.setFontFilters(filters)
 
-The *filters* parameter should be set to one of::
+The *filters* parameter should be set to one of:
 
 * ``QFontComboBox.AllFonts`` - show all fonts.
 * ``QFontComboBox.ScalableFonts`` - show scalable fonts.

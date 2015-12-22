@@ -2,6 +2,8 @@ SpinBox
 =======
 The SpinBox widget provides a way to enter numerical data. Thw widget provides integrated adjustment buttons which allow the user to adjust the number by clicking the arrows, while also allowing adjustment by typing into a text entry.
 
+A :doc:`doublespinbox` can be used if the value to be stored is a double type.
+
 ===========
 Constructor
 ===========

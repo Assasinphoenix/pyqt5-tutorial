@@ -41,4 +41,4 @@ In some circumstances, only one item held in the group will be checkable at a ti
 
 The checked item can be fetched from the group with the method::
 
-  actiongroup.chechedAction()
+  actiongroup.checkedAction()
