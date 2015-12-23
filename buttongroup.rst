@@ -18,7 +18,7 @@ A button is added to the group with the method::
 
 The *button* parameter indicated the button to be added into the ButtonGroup. The *id* value can be left if not required, in which case it will be assigned a negative value. If it is specified, the value should be positive. The value allows a button to be identified within the grouping.
 
-To remove a button, call::
+To remove a button from the group, use the call::
 
   buttongroup.removeButton(button)
 
@@ -41,6 +41,26 @@ If the id is to be specified after the button has been added to the ButtonGroup,
 To enforce that only one button in the group can be selected at a time, use::
 
   buttongroup.setExclusive(exclusive)
+
+If the ButtonGroup contains buttons which can be in the checked state, the active button can be found with::
+
+  buttongroup.checkedButton()
+
+=======
+Signals
+=======
+The available ButtonGroup signals are::
+
+  buttonClicked(button)
+  buttonClicked(id)
+  buttonPressed(button)
+  buttonPressed(id)
+  buttonReleased(button)
+  buttonReleased(id)
+  buttonToggled(button)
+  buttonToggled(id)
+
+Either the button object or id value can be connected, which will be actioned when the group member is clicked, pressed, released, or toggled.
 
 =======
 Example
