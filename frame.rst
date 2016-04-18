@@ -16,7 +16,7 @@ The line width of the Frame can be set in pixels using::
 
   frame.setLineWidth(width)
 
-By default, the width of the line is ``1``.
+By default, the width of the line is ``1`` pixel.
 
 The Frame can take on three appearances; plain, raised, or sunken. This is configurable via::
 

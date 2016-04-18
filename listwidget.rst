@@ -33,7 +33,7 @@ If editing of items is permitted, the item to edit can be declared via::
 
 The number of items currently in the list can be retrieved with::
 
-  count = listwidget.count()
+  listwidget.count()
 
 To enable sorting of the items in the list call::
 

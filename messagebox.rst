@@ -64,6 +64,10 @@ The *icon* parameter should be set to:
 * ``QMessageBox.Warning``
 * ``QMessageBox.Critical``
 
+The MessageBox can be run using the call::
+
+  messagebox.open()
+
 =======
 Example
 =======

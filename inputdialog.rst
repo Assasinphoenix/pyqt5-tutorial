@@ -14,6 +14,10 @@ A *parent* can be defined which associates the InputDialog with a parent window.
 =======
 Methods
 =======
+To run the InputDialog, call::
+
+  inputdialog.open()
+
 The OK and Cancel button text is set with the methods::
 
   inputdialog.setOkButtonText(text)
@@ -55,6 +59,10 @@ The minimum and maximum values can be defined using::
   inputdialog.setIntMaximum(maximum)
   inputdialog.setIntRange(minimum, maximum)
 
+A step value determines the amount that the value is adjusted::
+
+  inputdialog.setIntStep(step)
+
 When used in double mode, the InputDialog value is set by::
 
   inputdialog.setDoubleValue(value)
@@ -68,3 +76,13 @@ Double value minimum and maximum numbers are specified with::
   inputdialog.setDoubleMinimum(minimum)
   inputdialog.setDoubleMaximum(maximum)
   inputdialog.setDoubleRange(minimum, maximum)
+
+The InputDialog can also be used for retrieval of items from a combobox by defining the items::
+
+  inputdialog.setComboBoxItems(item, ...)
+
+Multiple items can be specified to be added to the combobox.
+
+If the combobox should also provide an entry to allow the user to enter text, use::
+
+  inputdialog.setComboBoxEditable(editable)

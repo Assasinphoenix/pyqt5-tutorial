@@ -17,6 +17,7 @@ Contents:
    pushbutton
    radiobutton
    checkbox
+   commandlinkbutton
    tooltip
    whatsthis
    lineedit
@@ -59,11 +60,14 @@ Contents:
    colordialog
    listwidget
    listwidgetitem
+   treewidget
+   treewidgetitem
    tablewidget
    columnview
    scrollarea
    plaintextedit
    textedit
+   inputdialog
    splashscreen
    messagebox
    wizard

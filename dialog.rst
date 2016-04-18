@@ -18,13 +18,17 @@ In certain circumstances, it may be useful to prevent the user from interacting 
 
 The modal state of the Dialog can be retrieved using::
 
-  modal = dialog.isModal()
+  dialog.isModal()
 
 To allow users to easily resize the Dialog, a :doc:`sizegrip` can be added::
 
   dialog.sizeGripEnabled(enabled)
 
 When *enabled* is set as ``True``, the SizeGrip will be added.
+
+The Dialog can be run with::
+
+  dialog.open()
 
 =======
 Example

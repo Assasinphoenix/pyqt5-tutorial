@@ -18,14 +18,14 @@ Methods
 =======
 Adding an item to the Menu with a simple text entry is done with::
 
-  action = menu.addAction(text)
+  menu.addAction(text)
 
 The *text* value should be set to the purpose of the action item. When called, it also returns the object for the item, allowing other :doc:`action` methods to be applied.
 
 Another menu can be added to the Menu with::
 
-  menu = menu.addMenu()
-  menu = menu.insertMenu(action)
+  menu.addMenu()
+  menu.insertMenu(action)
 
 The ``.insertMenu()`` method takes an action parameter which determines the item on which the new menu should be inserted before.
 

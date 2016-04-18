@@ -9,7 +9,7 @@ A Completer is constructed using::
 
   completer = QCompleter()
 
-The data model can be added post-construction, however it can be defined at construction time by using::
+The data model may be added post-construction, however it can be defined at construction time by using::
 
   completer = QCompleter(model)
 
