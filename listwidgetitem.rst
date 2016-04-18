@@ -24,7 +24,7 @@ The item can be hidden from the viewing widget with the call::
 
   listwidgetitem.setHidden(hidden)
 
-When *hidden* is ``True``, the item will not be visible to the user.
+When *hidden* is set to ``True``, the item will not be visible to the user.
 
 To check whether an item is hidden from view call::
 
@@ -37,3 +37,8 @@ An exact copy of the ListWidgetItem including all properties set can be made wit
 The ListWidget which contains the item can be fetched if required by::
 
   listwidgetitem.listWidget()
+
+=======
+Example
+=======
+An example of the ListWidgetItem can be viewed with the ListWidget example.
