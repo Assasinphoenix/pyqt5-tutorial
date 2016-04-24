@@ -34,6 +34,22 @@ Additional methods are available to check whether a page is either a commit or f
   wizardpage.isCommitPage()
   wizardpage.isFinalPage()
 
+Buttons on the WizardPage typically take the text string from the set Wizard style, however this can be customised with::
+
+  wizardpage.setButtonText(button, text)
+
+The *button* parameter specifies the wizard button constant to be change and should be one of:
+
+* ``QWizard.BackButton``
+* ``QWizard.NextButton``
+* ``QWizard.CommitButton``
+* ``QWizard.FinishButton``
+* ``QWizard.CancelButton``
+* ``QWizard.HelpButton``
+* ``QWizard.CustomButton1``
+* ``QWizard.CustomButton2``
+* ``QWizard.CustomButton3``
+
 =======
 Example
 =======
