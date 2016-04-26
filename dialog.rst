@@ -30,6 +30,21 @@ The Dialog can be run with::
 
   dialog.open()
 
+The result code of the Dialog will be fetched using::
+
+  dialog.result()
+
+The result code is returned when the Dialog is closed, providing a value to work with which specifies the user response. For example, if the user accepted or rejected a question, a response result will be returned which can then be handled.
+
+A result can also be set::
+
+  dialog.setResult(result)
+
+The *result* parameter can be set to any integer number, however the following values are recommended:
+
+* ``0`` - Rejected
+* ``1`` - Accepted
+
 =======
 Example
 =======
