@@ -73,6 +73,8 @@ Contents:
    wizard
    wizardpage
    clipboard
+   action
+   actiongroup
 
 
 Objects:

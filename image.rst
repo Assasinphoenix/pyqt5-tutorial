@@ -23,7 +23,7 @@ An Image with a specified size and format, but containing no data can also be ma
   image = QImage(size, format)
   image = QImage(width, height, format)
 
-The *size* parameter takes a :doc:`qsize` object. Alternatively, a *width* and *height* integer can be specified instead of the QSize object being used.
+The *size* parameter takes a :doc:`size` object. Alternatively, a *width* and *height* integer can be specified instead of the QSize object being used.
 
 A file can be loaded from disk using the filename specification::
 

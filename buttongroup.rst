@@ -57,10 +57,10 @@ The available ButtonGroup signals are::
   buttonPressed(id)
   buttonReleased(button)
   buttonReleased(id)
-  buttonToggled(button)
-  buttonToggled(id)
+  buttonToggled(button, checked)
+  buttonToggled(id, checked)
 
-Either the button object or id value can be connected, which will be actioned when the group member is clicked, pressed, released, or toggled.
+Either the *button* object or *id* value can be connected, which will be actioned when the signal is triggered. The ``buttonToggled()`` signal also indicates whether the state is set to ``True`` or ``False``.
 
 =======
 Example
