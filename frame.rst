@@ -12,6 +12,12 @@ The Frame is constructed using::
 =======
 Methods
 =======
+A layout widget can be added to the Frame container with::
+
+  frame.setLayout(layout)
+
+Typically the *layout* parameter will be a container widget such as :doc:`boxlayout`.
+
 The line width of the Frame can be set in pixels using::
 
   frame.setLineWidth(width)
@@ -24,9 +30,9 @@ The Frame can take on three appearances; plain, raised, or sunken. This is confi
 
 The default appearance is plain. The *shadow* can be set however to one of the following:
 
-* ``QFrame::Plain``
-* ``QFrame::Raised``
-* ``QFrame::Sunken``
+* ``QFrame.Plain``
+* ``QFrame.Raised``
+* ``QFrame.Sunken``
 
 The shape of the frame can be set via::
 
@@ -34,13 +40,13 @@ The shape of the frame can be set via::
 
 The *shape* parameter should be set to one of the following:
 
-* ``QFrame::NoFrame`` - draw no frame around the contents.
-* ``QFrame::Box`` - draw a box around the contents.
-* ``QFrame::Panel`` - draw a panel to make the content appear raised or sunken.
-* ``QFrame::StyledPanel`` - draw a raised or sunken rectangular panel dependent on the interface style.
-* ``QFrame::HLine`` - draw a horizontal line as a separator.
-* ``QFrame::VLine`` - draw a vertical line as a separator.
-* ``QFrame::WinPanel`` - draw a rectangular panel, raised or sunken, similar to those found in Windows 2000.
+* ``QFrame.NoFrame`` - draw no frame around the contents.
+* ``QFrame.Box`` - draw a box around the contents.
+* ``QFrame.Panel`` - draw a panel to make the content appear raised or sunken.
+* ``QFrame.StyledPanel`` - draw a raised or sunken rectangular panel dependent on the interface style.
+* ``QFrame.HLine`` - draw a horizontal line as a separator.
+* ``QFrame.VLine`` - draw a vertical line as a separator.
+* ``QFrame.WinPanel`` - draw a rectangular panel, raised or sunken, similar to those found in Windows 2000.
 
 =======
 Example
